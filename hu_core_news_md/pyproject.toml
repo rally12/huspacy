@@ -10,7 +10,7 @@ python = "^3.9"
 
 spacy = {version = "~3.8.0", extras = ["cuda-autodetect"]}
 
-[tool.poetry.dev-dependencies]
+[tool.poetry.dev-dependenciespoetry.group.dev.dependencies]
 spacy-huggingface-hub = "0.0.10"
 spacy-loggers = "~1.0.5"
 spacy_conll = "~4.0"
