@@ -9,7 +9,6 @@ license = "cc-by-sa-4.0"
 python = "^3.9"
 
 spacy = {version = "~3.8.0", extras = ["cuda-autodetect"]}
-cupy-cuda12x = "~13.3.0"
 
 [tool.poetry.dev-dependencies]
 spacy-huggingface-hub = "0.0.10"
